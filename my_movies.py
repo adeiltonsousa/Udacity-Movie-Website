@@ -30,6 +30,7 @@ the_avengers = media.Movie(
                     "https://i.annihil.us/u/prod/marvel/i/mg/6/50/521f70b81f7d3/portrait_incredible.jpg",
                     "https://youtu.be/pPqUuXEzIP4")
 
-my_movies = [the_phantom_menace, attack_of_the_clones, captain_america, the_battle_of_the_five_armies, les_miserables, the_avengers]
+my_movies = [the_phantom_menace, attack_of_the_clones, captain_america, the_battle_of_the_five_armies, les_miserables,
+             the_avengers]
 
 fresh_tomatoes.open_movies_page(my_movies)
