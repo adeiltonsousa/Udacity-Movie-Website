@@ -1,6 +1,16 @@
 import fresh_tomatoes
 import media
 
+the_phantom_menace = media.Movie(
+                    "Star Wars Episode I: The Phantom Menace",
+                    "https://upload.wikimedia.org/wikipedia/en/4/40/Star_Wars_Phantom_Menace_poster.jpg",
+                    "https://youtu.be/bD7bpG-zDJQ")
+
+attack_of_the_clones = media.Movie(
+                    "Star Wars Episode II: Attack of the Clones",
+                    "https://shotonwhat.com/images/0121765.jpg",
+                    "https://youtu.be/gYbW1F_c9eM")
+
 captain_america = media.Movie(
                     "Captain America: The First Avenger",
                     "https://www.designerd.com.br/wp-content/uploads/2015/08/releituras-cartazes-filmes-famosos-Marko-Manev-7.jpg",
@@ -20,16 +30,6 @@ the_avengers = media.Movie(
                     "https://i.annihil.us/u/prod/marvel/i/mg/6/50/521f70b81f7d3/portrait_incredible.jpg",
                     "https://youtu.be/pPqUuXEzIP4")
 
-the_phantom_menace = media.Movie(
-                    "Star Wars Episode I: The Phantom Menace",
-                    "https://upload.wikimedia.org/wikipedia/en/4/40/Star_Wars_Phantom_Menace_poster.jpg",
-                    "https://youtu.be/bD7bpG-zDJQ")
-
-attack_of_the_clones = media.Movie(
-                    "Star Wars Episode II: Attack of the Clones",
-                    "https://shotonwhat.com/images/0121765.jpg",
-                    "https://youtu.be/gYbW1F_c9eM")
-
-my_movies = [the_phantom_menace, attack_of_the_clones, captain_america, the_battle_of_the_five_armies, les_miserables, the_avengers ]
+my_movies = [the_phantom_menace, attack_of_the_clones, captain_america, the_battle_of_the_five_armies, les_miserables, the_avengers]
 
 fresh_tomatoes.open_movies_page(my_movies)
