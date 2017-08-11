@@ -34,4 +34,5 @@ the_avengers = media.Movie(
 my_movies = [the_phantom_menace, attack_of_the_clones, captain_america, the_battle_of_the_five_armies, les_miserables,
              the_avengers]
 
+# Função "open_movies_pages" presente no arquivo "fresh_tomatoes" resposável por exibir a lista "my_movies" em uma página HTML.
 fresh_tomatoes.open_movies_page(my_movies)
