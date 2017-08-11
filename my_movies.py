@@ -21,7 +21,8 @@ the_battle_of_the_five_armies = media.Movie(
                     "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg",
                     "https://youtu.be/ZSzeFFsKEt4")
 
-les_miserables = media.Movie("Les Miserables",
+les_miserables = media.Movie(
+                    "Les Miserables",
                     "http://fr.web.img5.acsta.net/medias/nmedia/18/91/00/76/20364091.jpg",
                     "https://youtu.be/YmvHzCLP6ug")
 
