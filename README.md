@@ -1,5 +1,7 @@
 # Udacity-Movie-Website
-@autor: Adeilton Sousa
+
+Autor: Adeilton Sousa
+
 Website para atividade - Cursos Udacity
 
 Instruções
