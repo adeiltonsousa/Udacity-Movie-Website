@@ -6,6 +6,11 @@ captain_america = media.Movie(
                     "https://www.designerd.com.br/wp-content/uploads/2015/08/releituras-cartazes-filmes-famosos-Marko-Manev-7.jpg",
                     "https://youtu.be/JerVrbLldXw")
 
+the_battle_of_the_five_armies = media.Movie(
+                    "The Hobbit: The Battle of the Five Armies",
+                    "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg",
+                    "https://youtu.be/ZSzeFFsKEt4")
+
 les_miserables = media.Movie("Les Miserables",
                     "http://fr.web.img5.acsta.net/medias/nmedia/18/91/00/76/20364091.jpg",
                     "https://youtu.be/YmvHzCLP6ug")
@@ -25,17 +30,6 @@ attack_of_the_clones = media.Movie(
                     "https://shotonwhat.com/images/0121765.jpg",
                     "https://youtu.be/gYbW1F_c9eM")
 
-revenge_of_the_sith = media.Movie(
-                    "Star Wars Episode III: Revenge of the Sith",
-                    "http://br.web.img3.acsta.net/medias/nmedia/18/92/58/33/20207204.jpg",
-                    "https://youtu.be/5UnjrG_N8hU")
-
-the_battle_of_the_five_armies = media.Movie(
-                    "The Hobbit: The Battle of the Five Armies",
-                    "http://br.web.img3.acsta.net/medias/nmedia/18/92/58/33/20207204.jpg",
-                    "https://youtu.be/ZSzeFFsKEt4")
-
-my_movies = [captain_america, the_avengers, the_phantom_menace, attack_of_the_clones, les_miserables,
-             the_battle_of_the_five_armies]
+my_movies = [the_phantom_menace, attack_of_the_clones, captain_america, the_battle_of_the_five_armies, les_miserables, the_avengers ]
 
 fresh_tomatoes.open_movies_page(my_movies)
