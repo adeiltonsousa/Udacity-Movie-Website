@@ -11,7 +11,8 @@ Instruções
     To help you generate a website that displays these movies, we have provided a Python module called fresh_tomatoes.py. This module has a function called open_movies_page that takes in one argument, which is a list of movies and creates an HTML file which visualizes all of your favorite movies.
     Ensure your website renders correctly when you attempt to load it in a browser.
     
-Para Estartar o Projeto:
+Para startar o Projeto:
+- Abrir o terminal e executar:
 
 #python my_movies.py 
 
